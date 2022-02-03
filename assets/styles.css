@@ -1,0 +1,44 @@
+.container{
+    width: 800px;
+    margin: auto;
+}
+h1{
+    margin-bottom: 0px;
+    border-bottom: 3px solid rgb(62, 62, 199);
+}
+
+.left{
+    width: 40%;
+    float: left;
+}
+.right{
+    width: 58%;
+    float: right;
+}
+.header{
+    height: 20px;
+    background-color: rgb(62, 62, 199);
+    width: 40%;
+}
+.footer{
+    height: 30px;
+    background-color: rgb(62, 62, 199);
+    width: 58%;
+    float: right;
+    
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.photo{
+    overflow: hidden;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.photo>img{
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 200px;
+}
